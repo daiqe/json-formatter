@@ -1,0 +1,16 @@
+@import "~@csstools/normalize.css";
+// @import "~bootstrap/scss/bootstrap";
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import './classes.scss';
+html {
+    font-size: 62.5%;
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}

@@ -1,0 +1,23 @@
+.notfound{
+    font-size: 1.6rem;
+    div:first-child{
+        font-size: 5rem;
+        color: #555;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    a{
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        color: white;
+    }
+
+    &__back_home{
+        text-align: center;
+    }
+}
