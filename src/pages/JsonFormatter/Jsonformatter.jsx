@@ -43,6 +43,7 @@ function Jsonformatter() {
       JSON.parse(text);
       setJsonInput(text);
     } catch (error) {
+      if(error instanceof DOMException) return;
       setJsonInput(JSON.stringify({ error: error.message }));
     }
   };

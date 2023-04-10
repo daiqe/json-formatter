@@ -75,6 +75,7 @@ function EditorBox({
         fontSize={14}
         width="100%"
         wrapEnabled={true}
+        showPrintMargin={false}
         editorProps={{
           $blockScrolling: true,
         }}
