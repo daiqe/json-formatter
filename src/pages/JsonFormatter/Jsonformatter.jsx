@@ -90,7 +90,7 @@ function Jsonformatter() {
   // Event handlers end here
 
   return (
-    <div className={style.jsonFormatter}>
+    <div className={style.jsonFormatter + ' row'}>
       <MessageBox showMessage={showMessage}>Copied to clipboard</MessageBox >
       <EditorBox
         value={draftInput}
@@ -105,7 +105,7 @@ function Jsonformatter() {
         }}
         mode="json"
       />
-      <div className={style.console}>
+      <div className={style.console + " col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12"}>
         <button onClick={openFileSelect}>Upload data</button>
         <select defaultValue="2" onChange={handleJsonSpaceChange}>
           {tabSpaces.map((s, index) => (

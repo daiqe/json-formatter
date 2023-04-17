@@ -17,7 +17,7 @@ function EditorBox({
   mode,
 }) {
   return (
-    <div className={style.editorBox}>
+    <div className={style.editorBox + " col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12"}>
       <header>
         <div className="flex-center">{name}</div>
         <div className={style.menu}>

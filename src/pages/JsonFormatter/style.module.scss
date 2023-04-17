@@ -1,11 +1,11 @@
 .jsonFormatter {
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
     padding: 0 2rem;
     min-height: 50rem;
     .console {
-        flex: 1 1 20%;
-        margin: 1rem 2rem 0 1rem;
+        // flex: 1 1 20%;
+        margin: 1rem 0 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -17,15 +17,20 @@
             padding: 0.5rem 0;
             margin-bottom: 2rem;
             border: solid 2px #fff;
-            font-size: 2rem;
+            font-size: 1.7rem;
             color: #fff;
             background: #18bc9c;
             transition: all .3s ease-in-out;
-
+            
             &:hover {
                 background: #fff;
                 color: #18bc9c;
             }
+            @media screen and (min-width: 992px) and (max-width: 1200px) {
+                font-size: 1.4rem;
+            }
+                
+            
         }
 
         button:last-of-type {
